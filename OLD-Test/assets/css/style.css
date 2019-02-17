@@ -78,6 +78,11 @@ h3 {
 }
 
 nav1 {
+
+  /* style="padding: 20px; font-family: Georgia, Times, Times New Roman, serif; position: relative; width: 250px; height: 90px; font-size: 30px; font-weight: 700; text-align: center; box-sizing: border-box;" */
+}
+
+a1 {
   float: left;
   width: 250px;
   height: 90px;
