@@ -10,18 +10,56 @@
 </head>
 
 <body>
+  <header id="masthead" style="overflow-y:hidden; overflow-x:hidden;">
+  <!-- Creating a new navbar with bootstrap -->
+  <div class="container">
+    <div class="row">
+      <div class="col-1">
+        <nav1 class="navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand" href="#"
+            style="background: #4aaaa5; color: white; padding: 20px; font-family: Georgia, Times, Times New Roman, serif; position: relative; width: 250px; height: 90px; font-size: 30px; font-weight: 700; text-align: center; box-sizing: border-box;">Kevin Choi</a>
+        </nav1>
+      </div>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <div class="col-8">
+        <!-- this is empty space -->
+      </div>
+
+      <div class="col-3">
+        <nav2 class="navbar navbar-expand-lg navbar-light bg-white">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#">About</a>
+              <a class="nav-item nav-link" href="#">Portfolio</a>
+              <a class="nav-item nav-link" href="#">Contact</a>
+            </div>
+          </div>
+        </nav2>
+      </div>
     </div>
+  </div>
+  
+<!-- OLD NAVBAR -->
+  <!-- <div class="container">
+    <a href="index.html" id="logo">Your Name</a>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div> -->
+
   </header>
 
+<div>
+
+</div>
+
+<!-- OLD BODY -->
   <div id="main-container" class="container">
     <section class="main-section">
       <h1>About Me</h1>
@@ -38,12 +76,14 @@
 
   </div>
 
+<!-- OLD FOOTER -->
   <footer>
     <div class="container">
       Copyright &copy; 
     </div>
   </footer>
 
+<!-- Source Code for Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

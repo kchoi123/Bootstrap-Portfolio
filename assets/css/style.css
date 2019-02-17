@@ -77,6 +77,30 @@ h3 {
   background: #4aaaa5;
 }
 
+nav1 {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+nav2 {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
 nav {
   float: right;
   margin-top: 25px;
