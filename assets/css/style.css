@@ -216,3 +216,25 @@ button[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+h2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  -webkit-animation: mymove 5s infinite; 
+  animation: mymove 5s infinite;
+}
+
+h2 {-webkit-animation-timing-function: linear;}
+
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
